@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="temperature">
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand active" href="index.html">Multitudes of Latitudes</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class='caret'></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">WindSpeed</a></li>
+        </ul>        
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="data.htm">Data</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+ <div class="container-fluid main">
+  <h1>Max Temperature vs. Latitude</h1>
+   <img src="images\MaxTemp_Latitude.png">
+      <h4> A negative latitude represents a region in Southern Hemisphere and a positive latitude represents a region in the Northern hemisphere. Climate differs between Northern and Southern Hemispheres due to seasonal slant towards and away from the sun. Hemisphere with the slant towards the sun experiences higher temperatures than the Hemisphere with the slant away from the sun. <br>
+      Above plot shows higher maximum temperatures in the Southern Hemisphere than that in the Northern Hemisphere at the time the data was gathered, namely, Dec.20,2017.</h4> 
+  </div>
+
+
+
+
+</body>
+</html>

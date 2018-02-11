@@ -1,0 +1,62 @@
+
+div.container-fluid{
+	background-color:#D3D3D3;
+}
+
+div.main{
+	background-color:#DCDCDC}
+
+div {
+    padding: 10;
+    border: 5px ;
+    margin: 20 solid gray;
+}
+
+.visualizations img {
+    padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+	font-size: 25px;
+	background-color: lightblue;
+}
+
+
+
+@media(max-width:1000px)  {
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+    }
+
+    .navbar-collapse.in {
+      overflow-y: auto !important;
+    }
+
+    .collapse.in {
+      display: block !important;
+    }
+
+}
+/*div h3{
+	text-align: center;
+}*/
+
+/*nav{
+	background-color:gray;
+	}
+@media screen  and (min-width: 480px){
+	nav{
+		background-color: blue;
+	}
+} */
+
+
